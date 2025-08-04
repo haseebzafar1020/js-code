@@ -3,7 +3,7 @@ console.log(typeof score); // output --> String
 console.log(typeof(score));
 
 let valueNumber = Number(score) // change string in numbers
-console.log(typeof valueNumber);//output --> number
+console.log(typeof valueNumber);// output --> number
  
 
 // "33" --> 33
@@ -24,6 +24,15 @@ let someNumber = 33
 let stringNumber =  String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+//************OPEATIONS***************
+
+console.log("1" +2);
+console.log(1 +"2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+
 
 
 

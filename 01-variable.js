@@ -1,7 +1,7 @@
 const acountId=1445;
 let acountEmail= "haseebmalik@gmail.com";
 var acountPassword = 123445
-acountCity = "karachi" // ya method behtar nai ha qk ap ko datatye declea karna chai ha..
+acountCity = "karachi" // ya method behtar nai ha qk ap ko datatye declear karna chai ha..
 
 console.log(acountId);
 
