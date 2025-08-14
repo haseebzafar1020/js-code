@@ -9,6 +9,7 @@ console.log(undefined == 0);
 
 
 // ===    // ya convertion boht stict tareekay se karta ha jab convertion ya check karta ha tu data type b check karta ha 
+//data typr same ha ya nai...
  
 
 console.log("2" === 2);

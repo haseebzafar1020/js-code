@@ -32,14 +32,14 @@ const arr2 = new Array(1,2,3,4,5)
 // console.log(newArr);
 
 
-const arn1 = arr.slice(1,3)  //ya Array ma se baki data ko remove kar data ha 
-console.log(arr);
-console.log("A ", arn1)  
+const arn1 = arr.slice(1,3)  //ya Methid bata ha ka konse index se kis index tak arrray ko print karna ha  
+console.log(arr);           //[1,2,3,4,5]
+console.log("A ", arn1)    // [2,3]
 
 
-const myn2 = arr.splice(1,3) // ya array ma se 
-console.log(arr)
-console.log("B" , myn2);
+const myn2 = arr.splice(1,3) // ya array ma se data ko remove kar data ha --> ya array ko manupalte karta ha...
+console.log(arr)             //[ 1, 5 ]  orignal array
+console.log("B" , myn2);     //  B [ 2, 3, 4 ]   splice array 
 
 
 

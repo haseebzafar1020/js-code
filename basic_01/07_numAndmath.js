@@ -18,8 +18,8 @@ console.log(hundred.toLocaleString()); //---> bari values ma (coma ",") lagaty h
 
 console.log(Math);
 console.log(Math.abs(-4)); //absoult values data ha ya 
-console.log(Math.round(4.5));
-console.log(Math.ceil(4.2));
+console.log(Math.round(4.5)); 
+console.log(Math.ceil(4.2)); // ya round off karta ha 
 console.log(Math.floor(4.9));//---> point ka bad value nai lata 4
 console.log(Math.min(2,4,5,8));
 console.log(Math.max(4,8,3,5));
@@ -32,6 +32,7 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random()*(max-min+1))+min);
+
 
 
 
